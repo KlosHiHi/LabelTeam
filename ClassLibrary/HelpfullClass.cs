@@ -10,5 +10,10 @@ namespace ClassLibrary
         {
             return price * discountPercent;
         }
+
+        public static bool LoginUser(string username)
+        {
+            return true;
+        }
     }
 }
